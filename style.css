@@ -131,6 +131,7 @@ body {
 }
 .button a {
     line-height: 155px;
+    display: block;
 }
 
 .tocenter {  
