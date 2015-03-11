@@ -1,0 +1,207 @@
+dd, p, h2 {
+    font-family: 'Lora', serif;
+}
+dt, h1, h3, a {
+    font-family: 'Raleway', sans-serif;
+}
+h3 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    margin: 0;
+}
+dl {
+    margin: 5px;
+}
+a {
+    text-decoration: none;
+}
+a:visited{
+    color: #474b49;
+}
+a:link{
+    color: #474b49;
+}
+
+dt {
+    font-size: 17px;
+    padding: 15px 0 5px 15px;
+    text-decoration: underline;    
+}
+
+.header {
+    background-color: #3D997A;
+    opacity: 0.7;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+}
+.container {
+    width: 100%;
+}
+
+h1 {
+    display: inline; 
+    line-height: 100px;
+    font-size: 45px;
+    margin-left: 15px;
+}
+
+.logo {
+    width: 150px;
+    float: right;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+#column1 {
+	float: left;
+	width: 20%;
+}
+#column2 {
+	
+	float: left;
+	text-align: center;
+	width: 60%;	
+}
+.column2inside  {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#column3 {
+	float: left;
+	width: 20%;
+}
+.column2backgroundpicture{
+    
+    background-image: url("pictures/lenadisminni.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    height: 500px;
+    margin: 10px auto;
+    max-width: 500px;
+    text-align: center;
+}
+.textunderpicture {
+    height: 138px;
+}
+.centercontent {
+    border-radius: 20px;
+	background-color: #f9edd6;
+    opacity: 0.7;
+    text-align: center;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+
+body {
+	background: 
+    linear-gradient(135deg, #fbf4e6 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #fbf4e6 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #fbf4e6 25%, transparent 25%),
+    linear-gradient(45deg, #fbf4e6 25%, transparent 25%);	
+    background-size: 100px 100px;
+    background-color: #dbf8dc; /* #b8f1ba*/
+    }
+
+
+
+.mynd {
+	border-radius: 150px;
+}
+
+.button {
+	border-radius: 20px;
+	background-color: #f9edd6;
+    opacity: 0.7;
+    text-align: center;
+    transition: all 1s ease-in-out;
+    height: 22%;
+    margin: 10px; 
+
+}
+.button:hover {
+    /*transform: rotate(360deg);*/
+    background-color: #c6f3c7;
+
+}
+.button a {
+    line-height: 155px;
+}
+
+.tocenter {  
+    
+}
+.rights {
+    float: right;
+}
+.pics {
+    width:100%;
+}
+
+
+/*This is css styling the recipes page*/
+
+.recipescol1 {
+    width: 45%;
+    float: left; 
+}
+.leftalignedrecipes {
+    text-align: left;
+    padding-left: 5px;
+}
+.recipescol2 {
+    width: 45%;  
+    float: right;     
+}
+.recipescol1row2 {
+    width: 45%;
+    float: left;
+}
+
+table, th, td {
+    border: 1px solid #474b49;
+    border-collapse: collapse;
+}
+
+
+@media print {
+   
+}
+
+@media screen and (max-width:646px) {
+    
+    h1 {
+    font-size: 30px; 
+    }
+    #column1, #column2 ,#column3  {
+        width: 100%;
+    }
+    #column3 {
+    float:right;
+    }
+    .button {
+        height: 40px;
+    }
+    .button a {
+    line-height: 40px;
+    }
+    
+}
+@media screen and (max-width:646px) {
+    .logo {
+        display: none;
+    }
+    .recipescol1row2 {
+        width: 100%;
+    }
+    .recipescol2 {
+        width: 100%;
+    }
+    .recipescol1 {
+        width: 100%;
+    }
+}
+
