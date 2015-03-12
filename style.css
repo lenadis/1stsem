@@ -207,4 +207,12 @@ table, th, td {
         width: 100%;
     }
 }
+@media screen and (max-width:350px) {
+    .hideonsmalldevices {
+        display: none;
+        outline: 2px solid;
+    }
+    
+
+}
 
