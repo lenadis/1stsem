@@ -1,0 +1,68 @@
+#canvas {
+    height: 400px;
+    width: 800px;
+}
+
+#dude {
+    background: yellow;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    transform: translate(200px, 100px)
+   /* -webkit-animation: 10s moveDude 1 forwards;*/
+}
+#dude.moving {
+    -webkit-animation: 7s moveDude 2;
+    /*border-radius: 0%;*/
+}
+@-webkit-keyframes moveDude {
+    0% {
+        transform: translate(200px, 0px);
+    }
+    20% {
+        transform: translate(200px, 100px);
+    }
+    40%{
+        transform: translate(200px, 0px);
+    }
+    60% {
+        transform: translate(200px, 100px);
+    }
+    80%{
+        transform: translate(200px, 0px);
+    }
+    100% {
+        transform: translate(200px, 100px);
+    }
+}
+
+/*#dude2 {
+    background: aquamarine;
+    margin: 20%;
+    height: 50px;
+    width: 50px;
+    animation: roll 2s steps(5) .5s forwards;
+}*/
+
+@-webkit-keyframes roll {
+    50% {
+        transform: translate(20vw, -20vh) scale(1.5);
+    }
+    100% {
+        transform: translate(0vw, -20vh) scale(2);
+    }
+}
+
+.man {
+    margin: auto;
+    background-image: url(walk_sprite.png);
+    width: 120px;
+    height: 180px;
+    -webkit-animation: walkcycle 1s steps(8) infinite;
+}
+
+@-webkit-keyframes walkcycle {
+    to{
+        background-position: -960px;
+    }
+}
